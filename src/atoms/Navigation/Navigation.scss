@@ -1,0 +1,12 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+
+  &__link {
+    color: green;
+
+    &_active {
+      color: aqua;
+    }
+  }
+}

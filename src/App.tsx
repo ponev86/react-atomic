@@ -1,14 +1,13 @@
-import React from 'react';
+import { Navigation } from './atoms';
+import Router from './router/Router';
 
-import { Comp } from './components';
-
-function App() {
+const App = () => {
   return (
     <>
-      <div className="App">App</div>
-      <Comp />
+      <Navigation />
+      <Router />
     </>
   );
-}
+};
 
 export default App;
